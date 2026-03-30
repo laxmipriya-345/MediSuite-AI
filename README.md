@@ -122,26 +122,28 @@ python main.py
 ## 📸 Project Demonstration
 
 ### 🖥️ User Interface
-The system provides a simple and user-friendly interface where users can enter patient details such as name, age, symptoms, and diagnosis.
+The system provides a user-friendly interface to enter patient details and interact with the AI medical coding assistant.
 
-![User Interface](ui.png)
+![User Interface](UI.png)
 
 ---
 
 ### 📄 Generated Medical Report
-After processing the input, the system automatically generates a structured medical report including ICD-10 and CPT codes in PDF format.
+The system automatically generates a structured PDF report with ICD-10 and CPT codes.
 
-![Generated Report](output.png)
+![Generated Report](OUTPUT.png)
 
 ---
 
 ### 🔍 Output Description
-The generated report contains:
-- Patient information  
-- Diagnosis details  
-- ICD-10 codes (for diseases)  
-- CPT codes (for procedures)  
-- Professionally formatted medical report  
+The generated report includes:
+- Patient details  
+- Diagnosis information  
+- ICD-10 codes (disease classification)  
+- CPT codes (procedure classification)  
+- Structured professional medical report  
+
+This demonstrates how MediSuite AI automates medical coding and report generation.
 
 This demonstrates the automation of medical coding and report generation using AI.
 ## 🧪 Limitations
