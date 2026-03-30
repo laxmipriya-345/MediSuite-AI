@@ -119,14 +119,31 @@ python main.py
 * Generated PDF: Medical Report
 
 ---
-## 📸 Project Output
+## 📸 Project Demonstration
 
 ### 🖥️ User Interface
-![UI Screenshot](screenshots/ui.png)
+The system provides a simple and user-friendly interface where users can enter patient details such as name, age, symptoms, and diagnosis.
+
+![User Interface](ui.png)
+
+---
 
 ### 📄 Generated Medical Report
-![PDF Output](screenshots/output.png)
+After processing the input, the system automatically generates a structured medical report including ICD-10 and CPT codes in PDF format.
 
+![Generated Report](output.png)
+
+---
+
+### 🔍 Output Description
+The generated report contains:
+- Patient information  
+- Diagnosis details  
+- ICD-10 codes (for diseases)  
+- CPT codes (for procedures)  
+- Professionally formatted medical report  
+
+This demonstrates the automation of medical coding and report generation using AI.
 ## 🧪 Limitations
 
 * Uses rule-based logic (not fully trained ML model)
