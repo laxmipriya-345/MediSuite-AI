@@ -1,18 +1,165 @@
-MediSuite AI is an AI-powered healthcare assistant designed to automate the process of medical coding and report generation.
-Your project solves this by using Artificial Intelligence to automatically:
-MediSuite AI is an AI-based medical coding assistant that automates the generation of ICD-10 and CPT codes from patient details. 
-It uses artificial intelligence to analyze medical information and produces structured reports in PDF format, reducing manual coding effort in healthcare documentation.
-✔ Understand patient details
-✔ Identify diagnosis or visit type
-✔ Suggest correct ICD-10 and CPT codes
-✔ Generate a professional medical report in PDF format
+# 🏥 MediSuite AI – Intelligent Medical Coding & Report Generation System
 
-our project provides an AI-based system that:
+## 📌 Overview
 
-Collects patient information
+**MediSuite AI** is an AI-powered healthcare assistant designed to automate medical coding and report generation. The system analyzes patient details and automatically generates **ICD-10 diagnosis codes**, **CPT procedure codes**, and structured **medical reports in PDF format**.
 
-Uses AI to analyze medical details
+This project helps reduce manual effort, improve accuracy, and streamline healthcare documentation.
 
-Generates appropriate medical codes
+---
 
-Creates structured medical reports automatically
+## 🎯 Objectives
+
+* Automate medical coding process
+* Reduce human errors in healthcare documentation
+* Save time for doctors and medical coders
+* Generate professional medical reports instantly
+
+---
+
+## ⚙️ Features
+
+✔ Collect patient information (name, age, symptoms, diagnosis)
+✔ Analyze medical input using AI techniques
+✔ Generate ICD-10 diagnosis codes
+✔ Generate CPT procedure codes
+✔ Create structured medical reports
+✔ Export reports as PDF files
+✔ Simple and user-friendly interface
+
+---
+
+## 🧠 Technology Used
+
+### 🔹 Frontend
+
+* Tkinter (Python GUI)
+
+### 🔹 Backend
+
+* Python
+
+### 🔹 AI Techniques
+
+* Rule-Based Expert System
+* Natural Language Processing (NLP)
+* Keyword Extraction
+
+### 🔹 Libraries
+
+* ReportLab (PDF generation)
+* Pandas (data handling)
+* Groq (optional / future use for LLM integration)
+
+---
+
+## 🏗️ System Architecture
+
+User Input → Data Processing → NLP Analysis → Code Mapping → PDF Generation → Output Report
+
+---
+
+## 🚀 How It Works
+
+1. User enters patient details
+2. System processes medical information
+3. NLP extracts important keywords
+4. Matches with ICD-10 & CPT database
+5. Generates medical codes
+6. Creates a structured PDF report
+7. User downloads the report
+
+---
+
+## 📂 Project Structure
+
+```
+MediSuite-AI/
+│
+├── main.py
+├── ai_model.py
+├── templates/
+├── reports/
+├── data/
+│   ├── icd_codes.csv
+│   └── cpt_codes.csv
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## ▶️ Installation & Setup
+
+### Step 1: Clone the repository
+
+```
+git clone https://github.com/your-username/medisuite-ai.git
+cd medisuite-ai
+```
+
+### Step 2: Install dependencies
+
+```
+pip install -r requirements.txt
+```
+
+### Step 3: Run the project
+
+```
+python main.py
+```
+
+---
+
+## 📊 Sample Output
+
+* ICD-10 Codes: R50.9 (Fever), J20.9 (Bronchitis)
+* CPT Codes: 99213 (Office Visit)
+* Generated PDF: Medical Report
+
+---
+## 📸 Project Output
+
+### 🖥️ User Interface
+![UI Screenshot](screenshots/ui.png)
+
+### 📄 Generated Medical Report
+![PDF Output](screenshots/output.png)
+
+## 🧪 Limitations
+
+* Uses rule-based logic (not fully trained ML model)
+* Limited to predefined medical codes
+* Requires manual input
+
+---
+
+## 🔮 Future Enhancements
+
+* Integrate Machine Learning models
+* Add Large Language Model (LLM) support using Groq API
+* Develop web-based version (Flask/React)
+* Add database (MySQL) for patient records
+* Implement user authentication system
+
+---
+
+## 🏥 Applications
+
+* Hospitals and clinics
+* Medical coding assistance
+* Healthcare documentation systems
+* Medical training and education
+
+---
+
+## 👩‍💻 Author
+
+Laxmipriya Rout
+
+---
+
+## 📜 License
+MIT LICENSE
+This project is for educational purposes only.
